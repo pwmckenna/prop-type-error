@@ -1,0 +1,26 @@
+{
+  "name": "prop-type-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prepublish": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwmckenna/prop-type-error.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pwmckenna/prop-type-error/issues"
+  },
+  "homepage": "https://github.com/pwmckenna/prop-type-error#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-pwmckenna": "^1.0.2"
+  }
+}
